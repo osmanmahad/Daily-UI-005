@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+img {
+  width: 318px;
+  height: 318px;
+  background-color: #2e3148;
+  border-radius: 70px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f3f0f0;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 650px) {
+  img {
+    width: 600px;
+    height: 600px;
+    border-radius: 110px;
+  }
+}
